@@ -9,14 +9,6 @@ require('dotenv').config();
      access_token_secret: process.env.access_token_secret
    });
 
-
-// var client = new Twitter({
-//   consumer_key: 'GSHNPB9naCol5jL2Szhb3ntPh',
-//   consumer_secret: '0MEqeXnRF2KIcz3qJ9ltSduLSsUKBot3CzIABIHhfu4sQnfgML',
-//   access_token_key: '87064244-vH0MB7XjlhgUrsplbIxUnSJOlKdt0jruKH7yxUwWb',
-//   access_token_secret: 'LY4UShpl4AUmKOnpOq9fdjwPM83DSlrFvhth8E5ZpqLFf'
-// });
-
 var currentSong = "";
 var pastSong = "";
 function postToTwitter() {
